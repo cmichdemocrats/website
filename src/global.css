@@ -1,0 +1,38 @@
+:root {
+  --college-democrats-blue: #466feb;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+b, p, li, h1, h2, h3, h4, h5, h6, a, input {
+  font-family: "Roboto Serif", serif;
+}
+
+a {
+  color: var(--college-democrats-blue);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 30px;
+}
+
+input {
+  padding: 15px;
+}
