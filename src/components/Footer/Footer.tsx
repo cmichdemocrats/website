@@ -11,9 +11,12 @@ export default function Footer() {
           <section className={styles.listContainer}>
             <b>Learn about us</b>
             <ul>
-              <li>Membership</li>
-              <li>Operation documents</li>
-              <li>Projects</li>
+              <li>
+                <Link to="/membership">Membership</Link>
+              </li>
+              <li>
+                <Link to="/projects">Projects</Link>
+              </li>
             </ul>
           </section>
           <section className={styles.listContainer}>
@@ -22,16 +25,26 @@ export default function Footer() {
               <li>
                 <Link to="/voting">Commit to voting</Link>
               </li>
-              <li>Volunteer with us</li>
-              <li>Attend events</li>
+              <li>
+                <Link to="/volunteer">Volunteer with us</Link>
+              </li>
+              <li>
+                <Link to="/events">Attend events</Link>
+              </li>
             </ul>
           </section>
           <section className={styles.listContainer}>
             <b>Get connected</b>
             <ul>
-              <li>Instagram</li>
-              <li>TikTok</li>
-              <li>Engage Central</li>
+              <li>
+                <a href="https://instagram.com/cmichdemocrats">Instagram</a>
+              </li>
+              <li>
+                <a href="https://tiktok.com/@cmichdemocrats">TikTok</a>
+              </li>
+              <li>
+                <a href="https://engage.apps.cmich.edu/organization/college-democrats">Engage Central</a>
+              </li>
               <li>
                 <a href="mailto:leadership@cmichdemocrats.org">Email</a>
               </li>

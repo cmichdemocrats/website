@@ -6,6 +6,8 @@ header {
   box-sizing: border-box;
   justify-content: space-between;
   --text-copyright: #b2b9cc;
+  z-index: 1;
+  align-items: center;
 }
 
 header a {
@@ -13,8 +15,20 @@ header a {
 }
 
 #left > a {
-  text-decoration: none;
-  font-size: 1.6rem;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+#left > a > img {
+  width: 75px;
+}
+
+#left > a > span {
+  display: none;
+}
+
+#right {
 }
 
 #right ul {
@@ -33,4 +47,17 @@ header a {
   background-color: var(--college-democrats-blue);
   color: white;
   padding: 5px 10px;
+}
+
+@media screen and (min-width: 1240px) {
+  
+  #left > a {
+    text-decoration: none;
+    font-size: 1.6rem;
+  }
+
+  #left > a > span {
+    display: initial;
+  }
+
 }

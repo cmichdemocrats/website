@@ -7,7 +7,10 @@ export default function Header() {
   return (
     <header id={styles.header}>
       <section id={styles.left}>
-        <a href="/">College Democrats at Central Michigan University</a>
+        <Link to="/">
+          <img src="/logo.png" />
+          <span>College Democrats at Central Michigan University</span>
+        </Link>
       </section>
       <section id={styles.right}>
         <ul>

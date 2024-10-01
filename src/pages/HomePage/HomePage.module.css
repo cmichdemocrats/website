@@ -6,14 +6,19 @@
   align-items: center;
   background-color: black;
   color: white;
-  margin: -30px -30px 0;
+  margin: -30px;
   height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
 }
 
-#emailContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
+#videoContainer > :not(video) {
+  z-index: 1;
+  padding: 0 30px;
+}
+
+#videoContainer > video {
+  width: 100%;
+  opacity: 0.4;
 }
