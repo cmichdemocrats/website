@@ -77,10 +77,10 @@ const config = {
         loader: "html-loader",
       },
       {
-        test: /\.(svg|png|jpe?g|gif|jp2|webp)$/,
+        test: /\.(svg|png|jpe?g|gif|jp2|webp|mp4)$/,
         loader: 'file-loader',
         options: {
-          name: 'images/[name].[ext]'
+          name: 'assets/[name].[ext]'
         }
       }
     ]
@@ -88,7 +88,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "public/index.html",
-      // favicon: "public/favicon.png"
+      favicon: "public/favicon.ico"
     }),
     new webpack.DefinePlugin({
       "process.env": JSON.stringify(process.env)

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
+import logoImage from "./logo.png"
 
 export default function Header() {
 
@@ -8,7 +9,7 @@ export default function Header() {
     <header id={styles.header}>
       <section id={styles.left}>
         <Link to="/">
-          <img src="/logo.png" />
+          <img src={logoImage} />
           <span>College Democrats at Central Michigan University</span>
         </Link>
       </section>
