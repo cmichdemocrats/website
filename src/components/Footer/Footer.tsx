@@ -26,10 +26,16 @@ export default function Footer() {
                 <Link to="/voting">Commit to voting</Link>
               </li>
               <li>
-                <Link to="/volunteer">Volunteer with us</Link>
+                <a href="#">Donate</a>
               </li>
               <li>
-                <Link to="/events">Attend events</Link>
+                <Link to="/volunteer">Volunteer</Link>
+              </li>
+              <li>
+                <Link to="/events">Events</Link>
+              </li>
+              <li>
+                <a href="https://github.com/cmichdemocrats/website">Improve our website</a>
               </li>
             </ul>
           </section>
