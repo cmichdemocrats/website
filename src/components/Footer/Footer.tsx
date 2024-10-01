@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 
@@ -18,7 +19,9 @@ export default function Footer() {
           <section className={styles.listContainer}>
             <b>Get involved</b>
             <ul>
-              <li>Get registered to vote</li>
+              <li>
+                <Link to="/voting">Commit to voting</Link>
+              </li>
               <li>Volunteer with us</li>
               <li>Attend events</li>
             </ul>
@@ -29,7 +32,9 @@ export default function Footer() {
               <li>Instagram</li>
               <li>TikTok</li>
               <li>Engage Central</li>
-              <li>Email</li>
+              <li>
+                <a href="mailto:leadership@cmichdemocrats.org">Email</a>
+              </li>
             </ul>
           </section>
         </section>

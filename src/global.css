@@ -1,5 +1,5 @@
 :root {
-  --college-democrats-blue: #466feb;
+  --college-democrats-blue: #203d95;
 }
 
 html {
@@ -24,13 +24,16 @@ a {
   color: var(--college-democrats-blue);
 }
 
-p {
+p, h1 {
   margin: 0;
   padding: 0;
 }
 
 main {
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px
 }
 
 input {

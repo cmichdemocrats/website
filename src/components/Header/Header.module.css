@@ -5,6 +5,11 @@ header {
   width: 100%;
   box-sizing: border-box;
   justify-content: space-between;
+  --text-copyright: #b2b9cc;
+}
+
+header a {
+  color: white;
 }
 
 #left > a {
@@ -24,7 +29,7 @@ header {
   text-decoration: none;
 }
 
-#right > ul > li:nth-of-type(3) > a {
+#right > ul > li:last-of-type > a {
   background-color: var(--college-democrats-blue);
   color: white;
   padding: 5px 10px;
