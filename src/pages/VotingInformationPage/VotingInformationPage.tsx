@@ -28,8 +28,15 @@ export default function VotingInformationPage() {
         </section>
       </section>
       <section>
+        <h1>Register for an absentee ballot</h1>
+        <p>November 5th not a good day for you? Make sure your voice still counts with an absentee ballot. You can get a ballot in the mail, and you'll be able to return it for free.</p>
+        <section>
+          <button onClick={() => location.href = "https://mvic.sos.state.mi.us/AVApplication/Index"}>Register for an absentee ballot michigan.gov</button>
+        </section>
+      </section>
+      <section>
         <h1>Commit to voting</h1>
-        <p>Gonna vote this November? Good. Tell us what's important to you so our officials can get their priorities straight.</p>
+        <p>Gonna vote? Good. Tell us what's important to you so our officials can get their priorities straight.</p>
         <section>
           <button onClick={() => location.href = "https://forms.office.com/r/JhTGrBygF2"}>I have a cmich.edu email</button>
           <button className="secondary" onClick={() => location.href = "#"}>I'm a guest</button>
