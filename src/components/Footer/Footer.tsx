@@ -17,6 +17,12 @@ export default function Footer() {
               <li>
                 <Link to="/projects">Projects</Link>
               </li>
+              <li>
+                <a href="https://www.micollegedems.org/">Michigan College Democrats</a>
+              </li>
+              <li>
+                <a href="https://www.collegedemocratsofamerica.com/">College Democrats of America</a>
+              </li>
             </ul>
           </section>
           <section className={styles.listContainer}>
