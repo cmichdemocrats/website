@@ -22,7 +22,7 @@ export default function Header() {
             <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="/voting">Commit to voting</Link>
+            <Link to="/vote">Commit to voting</Link>
           </li>
           <li>
             <a href="#" target="_blank">Donate</a>
