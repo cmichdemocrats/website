@@ -8,6 +8,7 @@ header {
   --text-copyright: #b2b9cc;
   z-index: 1;
   align-items: center;
+  height: 84px;
 }
 
 header a {
@@ -21,14 +22,11 @@ header a {
 }
 
 #left > a > img {
-  width: 75px;
+  width: 50px;
 }
 
 #left > a > span {
   display: none;
-}
-
-#right {
 }
 
 #right ul {
@@ -53,7 +51,6 @@ header a {
   
   #left > a {
     text-decoration: none;
-    font-size: 1.6rem;
   }
 
   #left > a > span {

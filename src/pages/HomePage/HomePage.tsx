@@ -1,8 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./HomePage.module.css";
 import tiktokVideo from "./tiktok-video.mp4";
 
 export default function HomePage() {
+
+  document.title = "College Democrats at Central Michigan University";
 
   return (
     <main>
