@@ -29,7 +29,7 @@ export default function Footer() {
             <b>Get involved</b>
             <ul>
               <li>
-                <Link to="/voting">Commit to voting</Link>
+                <Link to="/vote">Commit to voting</Link>
               </li>
               <li>
                 <a href="#">Donate</a>
