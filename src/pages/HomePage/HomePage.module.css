@@ -13,6 +13,10 @@
   text-align: center;
 }
 
+#videoContainer > h1 {
+  font-size: 3rem;
+}
+
 #videoContainer > :not(video) {
   z-index: 1;
   padding: 0 30px;

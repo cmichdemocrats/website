@@ -5,6 +5,7 @@
 html {
   font-size: 16px;
   line-height: 1.5rem;
+  font-family: "Roboto Serif", serif;
 }
 
 body {
@@ -15,10 +16,6 @@ h1 {
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 2.5rem;
-}
-
-b, p, li, h1, h2, h3, h4, h5, h6, a, input {
-  font-family: "Roboto Serif", serif;
 }
 
 a {
@@ -39,4 +36,22 @@ main {
 
 input {
   padding: 15px;
+}
+
+button {
+  font-size: inherit;
+  font-family: inherit;
+  padding: 5px 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--college-democrats-blue);
+  color: white;
+  cursor: pointer;
+}
+
+button.secondary {
+  border: 1px solid var(--college-democrats-blue);
+  box-sizing: border-box;
+  background-color: transparent;
+  color: var(--college-democrats-blue);
 }
