@@ -6,7 +6,7 @@ export interface MemberButtonProperties {
   imageSource: string;
   name: string;
   title: string;
-  term: string;
+  term?: string;
   objectPosition: number[];
   imageWidth?: number;
 }
@@ -24,7 +24,7 @@ export default function MemberButton(props: MemberButtonProperties) {
         </section>
         <section>
           <b>{props.name}</b>
-          <span>{props.title} ({props.term})</span>
+          <span>{props.title} {props.term ? `(${props.term})` : ""}</span>
         </section>
       </Link>
     </li>
