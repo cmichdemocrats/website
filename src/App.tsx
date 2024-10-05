@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import VotingInformationPage from "./pages/VotingInformationPage/VotingInformationPage";
+import MembershipPage from "./pages/MembershipPage/MembershipPage";
 
 export default function App() {
 
@@ -14,6 +15,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/membership" element={<MembershipPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/vote" element={<VotingInformationPage />} />
         <Route path="/volunteer" element={<Navigate to="/projects" replace/>} />
