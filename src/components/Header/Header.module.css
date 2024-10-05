@@ -11,6 +11,10 @@ header {
   height: 84px;
 }
 
+header.background {
+  background-color: black;
+}
+
 header a {
   color: white;
 }
