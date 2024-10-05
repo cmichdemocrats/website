@@ -16,6 +16,8 @@
   width: 100vw;
   max-width: none;
   color: white;
+  padding: 0 30px;
+  box-sizing: border-box;
 }
 
 #main > section:first-of-type > h1 {
