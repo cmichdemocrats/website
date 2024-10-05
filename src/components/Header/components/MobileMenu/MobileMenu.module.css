@@ -1,0 +1,42 @@
+#menu {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+#menu > section {
+  display: flex;
+  justify-content: right;
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#closeButton {
+  background-color: transparent;
+  padding: 0;
+}
+
+#menu ul {
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 700px) {
+  
+  #menu {
+    display: none;
+  }
+  
+}
