@@ -1,5 +1,30 @@
 [
   {
+    "name": "Christian Toney",
+    "title": "Co-chair and President",
+    "term": "2024 – Present",
+    "description": "",
+    "width": 250,
+    "objectPosition": [-70, -35],
+    "emailAddress": "christian.toney@cmich.edu"
+  },
+  {
+    "name": "Jordan Craighead",
+    "title": "Co-chair and Vice President",
+    "term": "2024 – Present",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "craig4jm@cmich.edu"
+  },
+  {
+    "name": "Charles Leighton",
+    "title": "Treasurer",
+    "term": "2024 – Present",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "leigh1ch@cmich.edu"
+  },
+  {
     "name": "Kenzie Brown",
     "title": "Secretary",
     "term": "2024 – Present",
