@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Kyla Stepp",
+    "title": "Registered Student Organization Advisor",
+    "description": "",
+    "objectPosition": [0, 0],
+    "width": 100,
+    "emailAddress": "stepp1k@cmich.edu"
+  },
+  {
+    "name": "Cristina Maria",
+    "title": "ONE Campaign Advisor",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "cvincenty@2024victory.com"
+  },
+  {
+    "name": "Morgan Limpus",
+    "title": "ONE Campaign Advisor",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "limpu1mr@cmich.edu"
+  }
+]

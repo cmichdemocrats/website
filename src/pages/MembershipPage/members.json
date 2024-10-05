@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Christian Toney",
+    "title": "Co-chair and President",
+    "term": "2024 – Present",
+    "description": "",
+    "width": 250,
+    "objectPosition": [-70, -35],
+    "emailAddress": "christian.toney@cmich.edu"
+  },
+  {
+    "name": "Jordan Craighead",
+    "title": "Co-chair and Vice President",
+    "term": "2024 – Present",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "craig4jm@cmich.edu"
+  },
+  {
+    "name": "Charles Leighton",
+    "title": "Treasurer",
+    "term": "2024 – Present",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "leigh1ch@cmich.edu"
+  },
+  {
+    "name": "Kenzie Brown",
+    "title": "Secretary",
+    "term": "2024 – Present",
+    "description": "I am Kenzie Brown, I am a freshman at CMU studying political science. I have a passion for law and politics, and plan to go into the field in the future. I am dedicated to helping to better the community around me and am looking forward to being a part of the CMU College Democrats!",
+    "objectPosition": [0, -10],
+    "emailAddress": "brown57k@cmich.edu"
+  },
+  {
+    "name": "Madisyn Robb",
+    "title": "Secretary",
+    "term": "2024 – Present",
+    "description": "Madisyn Robb is a freshman at Central Michigan University, where she serves as one of the Membership and Data Organizer for the Campus Democrats. Pursuing a major in History with a minor in Spanish, Madisyn aspires to become a history teacher. In addition to her political involvement, she plays trombone in the CMU Marching Band and is a member of the Rho Delta chapter of the Phi Mu sorority. Madisyn enjoys watching football and baseball games with her friends in her free time, as well as reading and writing.",
+    "objectPosition": [0, 0],
+    "emailAddress": "robb1mg@cmich.edu"
+  },
+  {
+    "name": "Carli Paukette",
+    "title": "Director of Outreach",
+    "term": "2024 – Present",
+    "description": "Carli Paukette is a sophomore at Central Michigan University and is a transfer student from Muskegon Community College, majoring in political science with a minor in criminal justice. She serves in an outreach position with the CMU College Democrats. Carli enjoys playing volleyball, spending time with animals (especially cats), and attending concerts. This year, her goal is to make a positive impact at CMU and help get Harris/Waltz elected in the upcoming election.",
+    "objectPosition": [0, 0],
+    "emailAddress": "ward1pg@cmich.edu"
+  },
+  {
+    "name": "Parker Ward",
+    "title": "Director of Outreach",
+    "term": "2024 – Present",
+    "description": "Parker Ward is co-chair of outreach for the College Democrats at Central Michigan University. His focus in his role is to connect the organization to elected officials, candidates, and other registered student organizations on campus. Parker is a freshman, double-majoring in political science and English, with the intention of going to law school after graduation. Parker is a member of the Central Michigan Honors Program, for which he serves as the Honors Program Board Chair of Membership and Recruitment.",
+    "objectPosition": [0, 0],
+    "emailAddress": "pauke1ca@cmich.edu"
+  },
+  {
+    "name": "Addison Bentley",
+    "title": "Director of Public Relations and Social Media",
+    "term": "2024 – Present",
+    "description": "Addison Bentley, Director of Social Media and Public Relations, is a first year Political Science major at Central Michigan. On campus, she is a part of the Leader Advancement Scholars cohort and several other RSOs including Central Votes and the Taylor Swift Society. In her free time, she enjoys listening to music and spending time with her family and friends.",
+    "objectPosition": [-16, -25],
+    "width": 150,
+    "emailAddress": "bentl1aa@cmich.edu"
+  },
+  {
+    "name": "Tori Zuber",
+    "title": "Director of Public Relations and Social Media",
+    "term": "2024 – Present",
+    "description": "She is a sophomore, but this is her first year at CMU. They transferred here from Muskegon Community College, and major in theater (acting and directing). On e-board she is one of the directors of public relations and runs our social media. Outside of college democrats, they are also in Feminist for Change, the Taylor Swift Society, and Spectrum.",
+    "objectPosition": [-50, -25],
+    "width": 200,
+    "emailAddress": "zuber1vl@cmich.edu"
+  },
+  {
+    "name": "Sky Austin",
+    "title": "Director of the Voter Contact and Registration Board",
+    "term": "2024 – Present",
+    "description": "Hello, my name is Sky Austin, and I serve as the Director of Voter Contact and Registration for the Central Michigan University Democrats. I am currently a sophomore pursuing a Bachelor's Degree in Communication, with a minor in Political Science. Originally from Maryland, I consider Michigan my home away from home.\nIn addition to my role with the Democrats, I am the Community Outreach Chair for Black Girls Rock, an IMPACT Mentor, a student-athlete on the Women’s Track and Field Team and a Multicultural Advancement Scholar. I have also served as an Angela Alsobrooks Senate Fellow, a Democracy Summer Fellow under Congressman Jamie Raskin and am currently a Campus and Youth Vote Organizing Fellow for the Michigan Democratic Party.",
+    "objectPosition": [0, 0],
+    "emailAddress": "austi2sk@cmich.edu"
+  },
+  {
+    "name": "Keara Banks",
+    "title": "Member of the Voter Contact and Registration Board",
+    "term": "2024 – Present",
+    "description": "Keara Banks is a political science major with a minor in public law and leadership. She shows her passion for civic engagement by working on voter contact and registration. Keara hopes to influence policy and promote democratic participation. Additionally in her future career empower voters through law and leadership. She is also involved in CMU Pom, LAS, and CM Life.",
+    "objectPosition": [-100, -60],
+    "width": 230,
+    "emailAddress": "banks1kw@cmich.edu"
+  },
+  {
+    "name": "Sonya Bennett",
+    "title": "Member of the Voter Contact and Registration Board",
+    "term": "2024 – Present",
+    "description": "Hi, I'm Sonya Bennett. I'm apart of the CMU Dems Executive Board, specifically voter contact and registration. I'm currently a freshman going for a Bachelor of Fine Arts, Theater: Design and Tech within the College of Arts and Media. Along with my passion of theater another one of my goals in life is to make a difference whether that's through politics or just making a person smile. Things I do outside of the CMU Dems are, of course, any production I can be involved in, going to football games, and hanging with friends.",
+    "objectPosition": [0, 0],
+    "emailAddress": "benne3sj@cmich.edu"
+  },
+  {
+    "name": "Rebecca Taylor",
+    "title": "Director of Dorm Organizing",
+    "term": "2024 – Present",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "taylo5rj@cmich.edu"
+  },
+  {
+    "name": "Riley Zitterzoph",
+    "title": "Director of Dorm Organizing",
+    "term": "2024 – Present",
+    "description": "",
+    "objectPosition": [0, 0],
+    "emailAddress": "zitte1rn@cmich.edu"
+  }
+]

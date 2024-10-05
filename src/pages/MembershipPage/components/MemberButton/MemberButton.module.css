@@ -1,0 +1,26 @@
+.item > a {
+  display: flex;
+  text-decoration: none;
+  gap: 30px;
+  align-items: center;
+}
+
+.item > a > section:last-of-type {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.imageContainer {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  flex-shrink: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+.imageContainer > img {
+  width: 100%;
+  object-fit: cover;
+}
