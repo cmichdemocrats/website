@@ -1,5 +1,5 @@
-import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Routes, Route, Navigate, useLocation, Location } from "react-router-dom";
 import "./global.css";
 import HomePage from "./pages/HomePage/HomePage";
 import Footer from "./components/Footer/Footer";
@@ -10,6 +10,21 @@ import MembershipPage from "./pages/MembershipPage/MembershipPage";
 import MemberPage from "./pages/MemberPage/MemberPage";
 
 export default function App() {
+
+  const location = useLocation();
+  const [oldLocation, setOldLocation] = useState<Location>(location);
+
+  useEffect(() => {
+
+    if (location.pathname !== oldLocation.pathname) {
+
+      window.scrollTo(0, 0);
+
+    }
+
+    setOldLocation(location);
+
+  }, [location]);
 
   return (
     <>

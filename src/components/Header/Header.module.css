@@ -6,7 +6,7 @@ header {
   box-sizing: border-box;
   justify-content: space-between;
   --text-copyright: #b2b9cc;
-  z-index: 1;
+  z-index: 2;
   align-items: center;
   height: 84px;
 }
@@ -34,21 +34,38 @@ header a {
 }
 
 #right ul {
-  list-style: none;
-  display: flex;
+  display: none;
+}
+
+#right > button {
   padding: 0;
-  margin: 0;
-  gap: 30px;
+  background-color: transparent;
 }
 
-#right a {
-  text-decoration: none;
-}
+@media screen and (min-width: 700px) {
+  
+  #right > button {
+    display: none;
+  }
 
-#right > ul > li:last-of-type > a {
-  background-color: var(--college-democrats-blue);
-  color: white;
-  padding: 5px 10px;
+  #right > ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+  }
+
+  #right a {
+    text-decoration: none;
+  }
+  
+  #right > ul > li:last-of-type > a {
+    background-color: var(--college-democrats-blue);
+    color: white;
+    padding: 5px 10px;
+  }
+  
 }
 
 @media screen and (min-width: 1240px) {

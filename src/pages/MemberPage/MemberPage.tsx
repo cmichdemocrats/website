@@ -65,8 +65,6 @@ export default function MemberPage() {
 
     }
 
-    console.log(paragraphs)
-
     return (
       <main id={styles.main}>
         <section>
