@@ -4,6 +4,7 @@ import MembershipList from "./components/MembershipList/MembershipList";
 import MemberButton from "./components/MemberButton/MemberButton";
 import styles from "./MembershipPage.module.css";
 import members from "./members.json"
+import advisors from "./advisors.json";
 
 export default function MembershipPage() {
 
@@ -12,41 +13,54 @@ export default function MembershipPage() {
   document.title = "Membership • College Democrats at Central Michigan University";
 
   const [memberButtonList, setMemberButtonList] = useState<ReactElement[]>([]);
+  const [advisorButtonList, setAdvisorButtonList] = useState<ReactElement[]>([]);
 
   useEffect(() => {
 
     (async () => {
 
-      const memberButtonList: ReactElement[] = [];
+      for (const list of [members, advisors]) {
 
-      for (const member of members) {
+        const buttonList: ReactElement[] = [];
 
-        let imageSourceModule;
-        
-        try {
+        for (const member of list) {
+
+          let imageSourceModule;
           
-          imageSourceModule = await (await import(`./images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
+          try {
+            
+            imageSourceModule = await (await import(`./images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
 
-        } catch (error) {
+          } catch (error) {
 
-          imageSourceModule = await (await import(`./images/default.png`));
+            imageSourceModule = await (await import(`./images/default.png`));
+
+          }
+
+          buttonList.push(
+            <MemberButton 
+              key={member.name} 
+              name={member.name}
+              title={member.title}
+              term={"term" in member ? `${member.term}` : undefined}
+              imageSource={imageSourceModule.default}
+              objectPosition={member.objectPosition}
+              imageWidth={member.width} />
+          )
+      
+        }
+
+        if (list === members) {
+
+          setMemberButtonList(buttonList);
+
+        } else {
+
+          setAdvisorButtonList(buttonList);
 
         }
 
-        memberButtonList.push(
-          <MemberButton 
-            key={member.name} 
-            name={member.name}
-            title={member.title}
-            term={member.term}
-            imageSource={imageSourceModule.default}
-            objectPosition={member.objectPosition}
-            imageWidth={member.width} />
-        )
-    
       }
-
-      setMemberButtonList(memberButtonList);
 
     })();
 
@@ -59,6 +73,9 @@ export default function MembershipPage() {
       </section>
       <MembershipList label="Executive Board members" description="These members manage the operations and represent the members of the organization.">
         {memberButtonList}
+      </MembershipList>
+      <MembershipList label="Advisors" description="These members advise the organization and assist in outreach, operations, and internal affairs.">
+        {advisorButtonList}
       </MembershipList>
     </main>
   );
