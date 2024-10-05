@@ -39,7 +39,9 @@ export default function MembershipPage() {
             name={member.name}
             title={member.title}
             term={member.term}
-            imageSource={imageSourceModule.default} />
+            imageSource={imageSourceModule.default}
+            objectPosition={member.objectPosition}
+            imageWidth={member.width} />
         )
     
       }
