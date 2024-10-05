@@ -18,7 +18,18 @@ export default function MemberPage() {
 
       if (member) {
 
-        const imageSourceModule = await (await import(`../MembershipPage/images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
+        let imageSourceModule;
+
+        try {
+          
+          imageSourceModule = await (await import(`../MembershipPage/images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
+
+        } catch (error) {
+
+          imageSourceModule = await (await import(`../MembershipPage/images/default.png`));
+
+        }
+
         setImageSource(imageSourceModule.default);
 
       } else {
@@ -43,7 +54,7 @@ export default function MemberPage() {
       const textSegment = remainingText.slice(0, remainingText.indexOf("\n"));
       paragraphs.push(textSegment);
 
-      remainingText.slice(remainingText.indexOf("\n") + 1);
+      remainingText = remainingText.slice(remainingText.indexOf("\n") + 1);
 
     }
 
