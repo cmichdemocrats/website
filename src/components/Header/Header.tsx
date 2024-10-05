@@ -11,7 +11,7 @@ export default function Header() {
 
     function checkScrollPosition() {
 
-      setShouldShowBackground(window.scrollY >= 633);
+      setShouldShowBackground(window.scrollY > 0);
       
     }
 
