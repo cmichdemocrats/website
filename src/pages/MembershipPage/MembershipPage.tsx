@@ -21,7 +21,17 @@ export default function MembershipPage() {
 
       for (const member of members) {
 
-        const imageSourceModule = await (await import(`./images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
+        let imageSourceModule;
+        
+        try {
+          
+          imageSourceModule = await (await import(`./images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
+
+        } catch (error) {
+
+          imageSourceModule = await (await import(`./images/default.png`));
+
+        }
 
         memberButtonList.push(
           <MemberButton 
