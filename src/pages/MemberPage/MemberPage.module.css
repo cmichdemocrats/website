@@ -18,9 +18,15 @@
   color: white;
 }
 
-#main > section:first-of-type > img {
+#imageContainer {
   height: 200px;
   width: 200px;
   border-radius: 100%;
+  flex-shrink: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+#imageContainer > img {
   object-fit: cover;
 }
