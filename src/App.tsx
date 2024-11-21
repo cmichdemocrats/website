@@ -8,6 +8,8 @@ import ProjectsPage from "./pages/ProjectsPage/ProjectsPage";
 import VotingInformationPage from "./pages/VotingInformationPage/VotingInformationPage";
 import MembershipPage from "./pages/MembershipPage/MembershipPage";
 import MemberPage from "./pages/MemberPage/MemberPage";
+import EventsPage from "./pages/EventsPage/EventsPage";
+import ConstitutionPage from "./pages/ConstitutionPage/ConstitutionPage";
 
 export default function App() {
 
@@ -31,8 +33,10 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/constitution" element={<ConstitutionPage />} />
         <Route path="/membership" element={<MembershipPage />} />
         <Route path="/membership/:memberID" element={<MemberPage />} />
+        <Route path="/events" element={<EventsPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/vote" element={<VotingInformationPage />} />
         <Route path="/volunteer" element={<Navigate to="/projects" replace/>} />

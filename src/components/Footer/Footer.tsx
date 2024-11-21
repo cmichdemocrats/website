@@ -18,6 +18,9 @@ export default function Footer() {
                 <Link to="/projects">Projects</Link>
               </li>
               <li>
+                <Link to="/constitution">Constitution</Link>
+              </li>
+              <li>
                 <a href="https://www.micollegedems.org/">Michigan College Democrats</a>
               </li>
               <li>
