@@ -82,7 +82,11 @@ const config = {
         options: {
           name: 'assets/[name].[ext]'
         }
-      }
+      },
+      {
+        test: /\.md$/i,
+        use: 'raw-loader',
+      },
     ]
   },
   plugins: [
