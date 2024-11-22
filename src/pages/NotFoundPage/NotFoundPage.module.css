@@ -1,0 +1,15 @@
+#main {
+  background-color: black;
+  padding: 30px;
+  min-height: 730px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#main > img {
+  max-width: 500px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  object-fit: cover;
+}
