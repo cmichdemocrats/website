@@ -51,12 +51,6 @@ export default function Header() {
             <li>
               <Link to="/projects">Projects</Link>
             </li>
-            <li>
-              <Link to="/vote">Commit to voting</Link>
-            </li>
-            <li>
-              <a href="#" target="_blank">Donate</a>
-            </li>
           </ul>
         </section>
       </header>

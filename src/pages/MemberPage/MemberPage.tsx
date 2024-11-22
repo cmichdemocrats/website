@@ -71,7 +71,7 @@ export default function MemberPage() {
           <section id={styles.imageContainer}>
             <img src={imageSource} style={{
               objectPosition: `${member.objectPosition[0] * 2}px ${member.objectPosition[1] * 2}px`,
-              width: member.width ? `${member.width}%` : undefined
+              width: member.imageWidth ? `${member.imageWidth}%` : undefined
             }} />
           </section>
           <h1>{member.name}</h1>
