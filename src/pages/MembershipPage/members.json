@@ -4,13 +4,13 @@
     "title": "President",
     "term": "2024 – Present",
     "description": "Christian Toney is the President of the College Democrats at Central Michigan University. He is a senior at the school, studying computer science. After graduating, he plans to study corporate law.\nDuring his tenure as the club president, he oversaw a committee that encouraged over 800 students to vote in the 2024 general election in Michigan, hosted various public officials, and managed event logistics for campaigns to visit Central Michigan University. In addition to this, he initiated cmichdemocrats.org and he wrote the initial draft of the club's constitution so that future leaders in the organization have a guiding point to support them.\nOutside of school, he likes volunteering in the city with his mom, and runs Beastslash, a media production company.",
-    "width": 250,
+    "imageWidth": 250,
     "objectPosition": [-70, -35],
     "emailAddress": "christian.toney@cmich.edu"
   },
   {
     "name": "Jordan Craighead",
-    "title": "Co-chair and Vice President",
+    "title": "Vice President",
     "term": "2024 – Present",
     "description": "",
     "objectPosition": [0, 0],
@@ -62,7 +62,7 @@
     "term": "2024 – Present",
     "description": "Addison Bentley, Director of Social Media and Public Relations, is a first year Political Science major at Central Michigan. On campus, she is a part of the Leader Advancement Scholars cohort and several other RSOs including Central Votes and the Taylor Swift Society. In her free time, she enjoys listening to music and spending time with her family and friends.",
     "objectPosition": [-16, -25],
-    "width": 150,
+    "imageWidth": 150,
     "emailAddress": "bentl1aa@cmich.edu"
   },
   {
@@ -71,7 +71,7 @@
     "term": "2024 – Present",
     "description": "She is a sophomore, but this is her first year at CMU. They transferred here from Muskegon Community College, and major in theater (acting and directing). On e-board she is one of the directors of public relations and runs our social media. Outside of college democrats, they are also in Feminist for Change, the Taylor Swift Society, and Spectrum.",
     "objectPosition": [-50, -25],
-    "width": 200,
+    "imageWidth": 200,
     "emailAddress": "zuber1vl@cmich.edu"
   },
   {
@@ -80,7 +80,7 @@
     "term": "2024 – Present",
     "description": "Hello, my name is Sky Austin, and I serve as the Director of Voter Contact and Registration for the Central Michigan University Democrats. I am currently a sophomore pursuing a Bachelor's Degree in Communication, with a minor in Political Science. Originally from Maryland, I consider Michigan my home away from home.\nIn addition to my role with the Democrats, I am the Community Outreach Chair for Black Girls Rock, an IMPACT Mentor, a student-athlete on the Women’s Track and Field Team and a Multicultural Advancement Scholar. I have also served as an Angela Alsobrooks Senate Fellow, a Democracy Summer Fellow under Congressman Jamie Raskin and am currently a Campus and Youth Vote Organizing Fellow for the Michigan Democratic Party.",
     "objectPosition": [-72, -70],
-    "width": 250,
+    "imageWidth": 250,
     "emailAddress": "austi2sk@cmich.edu"
   },
   {
@@ -89,7 +89,7 @@
     "term": "2024 – Present",
     "description": "Keara Banks is a political science major with a minor in public law and leadership. She shows her passion for civic engagement by working on voter contact and registration. Keara hopes to influence policy and promote democratic participation. Additionally in her future career empower voters through law and leadership. She is also involved in CMU Pom, LAS, and CM Life.",
     "objectPosition": [-100, -60],
-    "width": 230,
+    "imageWidth": 230,
     "emailAddress": "banks1kw@cmich.edu"
   },
   {
@@ -106,7 +106,7 @@
     "term": "2024 – Present",
     "description": "Sam Krawczyk is a freshman at Central Michigan University, majoring in Elementary Education. She serves on the Voter Contact and Registration Board for the College Democrats. She is very passionate about registering voters and informing others of how they can vote. In her free time, Sam enjoys spending time with her friends and family, doing karate, and listening to music.",
     "objectPosition": [-60, -60],
-    "width": 200,
+    "imageWidth": 200,
     "emailAddress": "krawc1sj@cmich.edu"
   },
   {

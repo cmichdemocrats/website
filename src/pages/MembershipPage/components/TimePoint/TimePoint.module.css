@@ -1,0 +1,16 @@
+.timePoint {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0;
+  width: 92px;
+}
+
+.timePointDot {
+  width: 20px;
+  height: 20px;
+  background-color: var(--college-democrats-blue);
+  border-radius: 100%;
+}

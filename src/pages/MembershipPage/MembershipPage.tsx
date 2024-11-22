@@ -5,6 +5,8 @@ import MemberButton from "./components/MemberButton/MemberButton";
 import styles from "./MembershipPage.module.css";
 import members from "./members.json"
 import advisors from "./advisors.json";
+import TimePoint from "./components/TimePoint/TimePoint";
+import TimeRuler from "./components/TimeRuler/TimeRuler";
 
 export default function MembershipPage() {
 
@@ -25,27 +27,10 @@ export default function MembershipPage() {
 
         for (const member of list) {
 
-          let imageSourceModule;
-          
-          try {
-            
-            imageSourceModule = await (await import(`./images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
-
-          } catch (error) {
-
-            imageSourceModule = await (await import(`./images/default.png`));
-
-          }
-
           buttonList.push(
             <MemberButton 
               key={member.name} 
-              name={member.name}
-              title={member.title}
-              term={"term" in member ? `${member.term}` : undefined}
-              imageSource={imageSourceModule.default}
-              objectPosition={member.objectPosition}
-              imageWidth={member.width} />
+              member={member as any} />
           )
       
         }
@@ -70,6 +55,11 @@ export default function MembershipPage() {
     <main id={styles.main}>
       <section>
         <h1>Membership</h1>
+      </section>
+      <section>
+        <TimeRuler>
+          <TimePoint>2024 – 2025</TimePoint>
+        </TimeRuler>
       </section>
       <MembershipList label="Executive Board members" description="These members manage the operations and represent the members of the organization.">
         {memberButtonList}

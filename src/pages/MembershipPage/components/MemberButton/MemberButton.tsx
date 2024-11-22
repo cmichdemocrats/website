@@ -1,30 +1,59 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./MemberButton.module.css";
 
 export interface MemberButtonProperties {
-  imageSource: string;
-  name: string;
-  title: string;
-  term?: string;
-  objectPosition: number[];
-  imageWidth?: number;
+  member: {
+    name: string;
+    title: string;
+    term?: string;
+    objectPosition: number[];
+    imageWidth?: number;
+  }
 }
 
-export default function MemberButton(props: MemberButtonProperties) {
+export default function MemberButton({member}: MemberButtonProperties) {
+
+  const [imageSource, setImageSource] = useState<string | null>(null);
+
+  useEffect(() => {
+
+    (async () => {
+
+      let imageSourceModule;
+            
+      try {
+        
+        imageSourceModule = await (await import(`../../images/${member.name.toLowerCase().replaceAll(" ", "-")}.jpg`));
+
+      } catch (error) {
+
+        imageSourceModule = await (await import(`../../images/default.png`));
+
+      }
+
+      setImageSource(imageSourceModule.default);
+
+    })();
+
+  }, []);
 
   return (
     <li className={styles.item}>
-      <Link to={`/membership/${props.name.replaceAll(" ", "-").toLowerCase()}`}>
+      <Link to={`/membership/${member.name.replaceAll(" ", "-").toLowerCase()}`}>
         <section className={styles.imageContainer}>
-          <img src={props.imageSource} style={{
-            objectPosition: `${props.objectPosition[0]}px ${props.objectPosition[1]}px`,
-            width: props.imageWidth ? `${props.imageWidth}%` : undefined
-          }} />
+          {
+            imageSource ? (
+              <img src={imageSource} style={{
+                objectPosition: `${member.objectPosition[0]}px ${member.objectPosition[1]}px`,
+                width: member.imageWidth ? `${member.imageWidth}%` : undefined
+              }} />
+            ) : null
+          }
         </section>
         <section>
-          <b>{props.name}</b>
-          <span>{props.title} {props.term ? `(${props.term})` : ""}</span>
+          <b>{member.name}</b>
+          <span>{member.title}</span>
         </section>
       </Link>
     </li>

@@ -10,6 +10,7 @@ import MembershipPage from "./pages/MembershipPage/MembershipPage";
 import MemberPage from "./pages/MemberPage/MemberPage";
 import EventsPage from "./pages/EventsPage/EventsPage";
 import ConstitutionPage from "./pages/ConstitutionPage/ConstitutionPage";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
 export default function App() {
 
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/vote" element={<VotingInformationPage />} />
         <Route path="/volunteer" element={<Navigate to="/projects" replace/>} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </>

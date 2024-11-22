@@ -1,0 +1,7 @@
+.timeRuler {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  overflow-x: auto;
+  padding: 0 calc(50% - 46px);
+}
