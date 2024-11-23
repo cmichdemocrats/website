@@ -6,6 +6,8 @@ import Markdown from "react-markdown";
 import sectionize from "remark-sectionize"
 
 export default function ConstitutionPage() {
+  
+  document.title = "Constitution • College Democrats at Central Michigan University";
 
   return (
     <main id={styles.main}>
